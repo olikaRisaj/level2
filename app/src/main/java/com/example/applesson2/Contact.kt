@@ -1,5 +1,7 @@
 package com.example.applesson2
 
-import android.widget.ImageView
-
-data class Contact(val name: String, val profession: String)
+data class Contact(
+    val userImage: String,
+    val name: String,
+    val profession: String
+    )
